@@ -1,0 +1,5 @@
+add_executable(test_choose_by_weight ${CMAKE_CURRENT_SOURCE_DIR}/test_choose_by_weight.cpp)
+target_link_libraries(test_choose_by_weight random_util)
+
+add_executable(test_trigger_by_prob ${CMAKE_CURRENT_SOURCE_DIR}/test_trigger_by_prob.cpp)
+target_link_libraries(test_trigger_by_prob random_util)
