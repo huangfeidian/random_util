@@ -1,7 +1,7 @@
 #include "trigger_by_prob.h"
 #include "uniform_generator_imp.h"
 #include <iostream>
-using namespace spiritsaway::system::random_util;
+using namespace spiritsaway::utility::random_util;
 
 void print_trig_stat(trigger_by_prob_interface& cur_trigger, int num)
 {

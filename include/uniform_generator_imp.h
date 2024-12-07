@@ -3,7 +3,7 @@
 #include "uniform_generator_base.h"
 #include <random>
 
-namespace spiritsaway::system::random_util
+namespace spiritsaway::utility::random_util
 {
 	class uniform_generator_by_std: public uniform_generator_base
 	{

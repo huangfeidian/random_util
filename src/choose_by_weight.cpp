@@ -1,7 +1,7 @@
 #include "choose_by_weight.h"
 #include <cassert>
 
-namespace spiritsaway::system::random_util
+namespace spiritsaway::utility::random_util
 {
 	std::uint32_t choose_by_weight_naive::choose()
 	{

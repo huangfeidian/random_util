@@ -49,7 +49,7 @@ namespace
 		return Cmid;
 	}
 }
-namespace spiritsaway::system::random_util
+namespace spiritsaway::utility::random_util
 {
 	bool trigger_by_prob_pseudo_random::try_trigger()
 	{

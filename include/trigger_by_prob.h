@@ -2,7 +2,7 @@
 
 #include "uniform_generator_base.h"
 
-namespace spiritsaway::system::random_util
+namespace spiritsaway::utility::random_util
 {
 	class trigger_by_prob_interface
 	{

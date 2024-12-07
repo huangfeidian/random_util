@@ -2,7 +2,7 @@
 #include "uniform_generator_imp.h"
 #include <iostream>
 
-using namespace spiritsaway::system::random_util;
+using namespace spiritsaway::utility::random_util;
 
 double test_1(choose_by_weight_interface& cur_chooser, int num)
 {
@@ -104,11 +104,11 @@ std::vector<item_weight_config> gen_weight_config(std::vector<std::uint32_t> in_
 
 void test_4(int weight_num, int case_num)
 {
-	// auto cur_weight_config = gen_weight_config(weight_num);
-	auto cur_weight_config = gen_weight_config(std::vector<std::uint32_t>{28, 31, 30, 47, 8, 43, 44, 33, 33, 13});
+	auto cur_weight_config = gen_weight_config(weight_num);
+	// auto cur_weight_config = gen_weight_config(std::vector<std::uint32_t>{28, 31, 30, 47, 8, 43, 44, 33, 33, 13});
 	test_2(cur_weight_config, case_num);
 }
 int main()
 {
-	test_4(10, 10000);
+	test_4(20, 10000);
 }
